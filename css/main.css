@@ -1,0 +1,104 @@
+body{
+background-color:white;
+border: solid 0.5px grey;
+
+}
+.outer{
+  display: flex;
+}
+.left{
+  width: 60%;
+  border-style: solid;
+  border-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.right{
+  width: 40%;
+  border-style: solid;
+  border-color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFD700;
+  color: deepblue;
+  align-items: center;
+  font-family: "Arial";
+}
+nav div{
+  display: flex;
+}
+nav a:hover{
+  background-color: #F21B3F;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.navright{
+  width: 15%;
+  justify-content: space-between;
+}
+.navleft{
+  width: 15%;
+  justify-content: space-between;
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+} */
+.right{
+  background-color: #415D43;
+}
+.comment{
+}
+#upnext{
+  color: white;
+}
+
+/* Right (side) div will go go below the left div when it hits 650px */
+@media only screen and (max-width: 650px) {
+    .outer {
+      background-color: yellow;
+      display: flex;
+      flex-direction: column;
+    }
+}
+#Romwe-ad{
+  width: 100%;
+  }
+#video1{
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  }
+#video2{
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+viewport
